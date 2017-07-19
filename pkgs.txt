@@ -1,0 +1,1995 @@
+accept:
+    Versions: 0.1.0, 0.2.0, 0.2.1, 0.3.0
+
+acceptor_pool:
+    Versions: 1.0.0-rc.0
+
+active:
+    Versions: 0.9.0
+
+agent:
+    Versions: 0.1.0
+
+aleppo:
+    Versions: 0.9.0
+
+altworx_utils:
+    Versions: 0.0.1, 0.0.2, 0.0.4
+
+amqp_client:
+    Versions: 3.0.2, 3.3.5, 3.4.0, 3.5.0, 3.5.6, 3.6.7-pre.1
+
+appsignal:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.8, 0.0.9, 0.1.0, 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.6.0, 0.6.1, 0.6.2, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.10.0, 0.11.0, 0.11.1, 0.11.2, 0.11.3, 0.11.4, 0.11.5, 0.11.6, 0.12.0, 0.12.1, 0.12.2, 0.12.3, 0.13.0, 1.0.0-rc.1, 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4
+
+argon2_elixir:
+    Versions: 0.8.0, 0.9.0, 0.9.1, 0.10.0, 0.10.1, 0.11.0, 0.11.2, 0.11.3, 0.11.4, 0.12.0
+
+ast_walk:
+    Versions: 0.1.0
+
+aws_cli:
+    Versions: 0.1.0
+
+aws_http:
+    Versions: 0.2.2, 0.2.3, 0.2.4
+
+b64fast:
+    Versions: 0.2.0, 0.2.1
+
+backoff:
+    Versions: 1.1.1, 1.1.2, 1.1.3
+
+bank:
+    Versions: 0.1.0, 0.2.0, 0.2.1, 0.2.2
+
+barista:
+    Versions: 0.2.0, 0.2.1, 0.2.2
+
+barrel_ibrowse:
+    Versions: 4.2.0, 4.3.1
+
+barrel_jiffy:
+    Versions: 0.14.4, 0.14.5
+
+barrel_oauth:
+    Versions: 1.6.0
+
+barrel_unofficial:
+    Versions: 2.15.0
+
+base16:
+    Versions: 1.0.0
+
+base64url:
+    Versions: 0.0.1
+
+basho_exometer_core:
+    Versions: 1.0.0, 1.0.1, 1.0.2
+
+basho_folsom:
+    Versions: 0.7.4, 0.7.5
+
+basho_hamcrest:
+    Versions: 0.4.0, 0.4.1
+
+basho_poolboy:
+    Versions: 0.8.1-p3, 0.8.2
+
+basho_stats:
+    Versions: 1.0.3
+
+baud:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.4.0, 0.4.1, 0.4.2
+
+bbmustache:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.4.0
+
+bcrypt:
+    Versions: 0.5.0-p3, 0.5.0-p3a
+
+beam_olympics:
+    Versions: 1.0.2, 1.1.1, 1.2.0, 1.2.1, 1.2.2, 1.2.3
+
+bear:
+    Versions: 0.8.3
+
+bert:
+    Versions: 0.1.0
+
+binpp:
+    Versions: 1.1.1
+
+bitcask:
+    Versions: 2.0.2
+
+blume:
+    Versions: 0.1.0
+
+bootstrap:
+    Versions: 0.0.2
+
+bristow:
+    Versions: 0.1.0, 0.1.1, 0.2.0, 0.2.1, 0.2.2
+
+brod:
+    Versions: 2.0.0, 2.1.2, 2.1.4, 2.1.7, 2.1.8, 2.1.10, 2.1.11, 2.1.12, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.2.8, 2.2.9, 2.2.10, 2.2.11, 2.2.12, 2.2.14, 2.2.15, 2.2.16
+
+brotli:
+    Versions: 0.1.0, 0.1.2, 0.1.3, 0.1.4
+
+browser_lang:
+    Versions: 0.1.0
+
+brunhilde:
+    Versions: 1.5.0
+
+bstr:
+    Versions: 0.3.0
+
+bucs:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9
+
+bugsnag_erl:
+    Versions: 0.1.2, 0.1.3, 0.1.4, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.1.4
+
+cache_tab:
+    Versions: 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6
+
+cassandra:
+    Versions: 1.0.0-beta.3, 1.0.0-beta.4
+
+certifi:
+    Versions: 0.1.1, 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.6.0, 0.7.0, 1.0.0
+
+cet:
+    Versions: 0.1.0, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.3.4
+
+cf:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.2.0, 0.2.1, 0.2.2
+
+cgroups:
+    Versions: 1.5.3, 1.5.4, 1.6.0
+
+chash:
+    Versions: 0.1.1, 0.1.2
+
+chatterbox:
+    Versions: 0.4.0
+
+chumak:
+    Versions: 1.1.1, 1.1.2, 1.1.3, 1.2.0
+
+clique:
+    Versions: 0.3.6, 3.0.1
+
+cloudi_core:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1-package, 1.5.1, 1.5.3-rc1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_api_requests:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_db:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1
+
+cloudi_service_db_cassandra:
+    Versions: 1.3.3
+
+cloudi_service_db_cassandra_cql:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1
+
+cloudi_service_db_couchdb:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1
+
+cloudi_service_db_elasticsearch:
+    Versions: 1.3.3
+
+cloudi_service_db_http_elli:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_db_memcached:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1
+
+cloudi_service_db_mysql:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4
+
+cloudi_service_db_pgsql:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4
+
+cloudi_service_db_riak:
+    Versions: 1.3.3
+
+cloudi_service_db_tokyotyrant:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0
+
+cloudi_service_filesystem:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_http_client:
+    Versions: 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4
+
+cloudi_service_http_cowboy:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_http_rest:
+    Versions: 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_map_reduce:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_monitoring:
+    Versions: 1.5.1, 1.5.3, 1.5.4
+
+cloudi_service_oauth1:
+    Versions: 1.3.3, 1.5.1, 1.5.3, 1.5.4
+
+cloudi_service_queue:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_quorum:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4
+
+cloudi_service_router:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_tcp:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_timers:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1
+
+cloudi_service_udp:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_validate:
+    Versions: 1.5.0, 1.5.1, 1.5.3, 1.5.4, 1.6.0
+
+cloudi_service_zeromq:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.3, 1.5.4
+
+cmark:
+    Versions: 0.1.1, 0.2.0, 0.3.0-dev1, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.4.1, 0.4.2, 0.4.3, 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.6, 0.5.7, 0.6.0, 0.6.1, 0.6.2, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.6.8, 0.6.9, 0.6.10, 0.7.0
+
+comeonin:
+    Versions: 0.2.2, 0.2.3, 0.2.4, 0.3.0, 0.3.1, 0.4.0, 0.5.0, 0.5.1, 0.6.0, 0.7.0, 0.8.0, 0.8.1, 0.8.2, 0.9.0, 0.11.0, 0.11.1, 0.11.2, 0.11.3, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.1.4, 1.2.0, 1.2.1, 1.2.2, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.5.0, 1.6.0, 2.0.0, 2.0.1, 2.0.2, 2.0.3, 2.1.0, 2.1.1, 2.2.0, 2.3.0, 2.3.1, 2.4.0, 2.5.0, 2.5.1, 2.5.2, 2.5.3, 2.6.0, 3.0.0, 3.0.1
+
+complex_math:
+    Versions: 0.2.0-rc1
+
+concha:
+    Versions: 0.1.0
+
+conduit_amqp_client:
+    Versions: 3.6.2
+
+conduit_rabbit_common:
+    Versions: 2.7.1
+
+conferl:
+    Versions: 0.0.1
+
+context:
+    Versions: 0.1.0
+
+couchbeam:
+    Versions: 1.2.0, 1.2.1, 1.3.0, 1.3.1, 1.4.0, 1.4.1, 1.4.2
+
+countries_erlang:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.4.0, 0.5.0
+
+coveralls:
+    Versions: 1.3.0, 1.4.0
+
+cowbell:
+    Versions: 0.1.0, 1.0.0
+
+cowboy:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.1.0, 1.1.1, 1.1.2
+
+cowboy_oauth:
+    Versions: 0.2.12, 0.2.13, 0.2.14
+
+cowboy_routes_tree:
+    Versions: 0.2.0
+
+cowboy_session:
+    Versions: 1.0.0
+
+cowboy_swagger:
+    Versions: 0.1.1, 1.1.0, 1.2.0, 1.2.1, 1.2.2
+
+cowlib:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.2.0, 1.3.0
+
+cpg:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+craterl:
+    Versions: 0.1.1, 0.2.0, 0.2.1, 0.2.3
+
+crc:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.4.0, 0.4.1, 0.4.2, 0.5.0, 0.5.1, 0.5.2
+
+crypto_ext:
+    Versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4
+
+crypto_rsassa_pss:
+    Versions: 1.0.0
+
+csv_reader:
+    Versions: 1.0.0
+
+cth_readable:
+    Versions: 0.1.0, 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4
+
+cucumberl:
+    Versions: 0.0.6, 0.0.7, 0.0.8, 0.0.9, 0.0.10
+
+cuttlefish:
+    Versions: 2.0.6, 2.0.7, 2.0.8, 2.0.11
+
+damm:
+    Versions: 0.1.0
+
+db:
+    Versions: 0.9.0
+
+dbschema:
+    Versions: 0.2.0, 0.2.2
+
+dbus:
+    Versions: 0.5.0, 0.6.2, 0.7.0
+
+ddb_client:
+    Versions: 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.19, 0.1.20, 0.1.21, 0.1.22, 0.1.23, 0.1.24, 0.1.25, 0.1.26, 0.1.27, 0.1.28, 0.1.29, 0.1.30, 0.1.31, 0.1.32, 0.1.33, 0.2.0, 0.2.1, 0.2.2, 0.3.0
+
+ddb_connection:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.20, 0.1.21, 0.1.22
+
+decorators:
+    Versions: 0.1.0
+
+denrei:
+    Versions: 0.2.3, 0.2.4, 0.2.5
+
+depcache:
+    Versions: 1.2.1, 1.2.2
+
+detergent:
+    Versions: 0.3.0
+
+dflow:
+    Versions: 0.1.3, 0.1.4, 0.1.5, 0.1.7
+
+discount:
+    Versions: 0.5.0, 0.5.1, 0.5.3, 0.5.4, 0.6.0, 0.6.1, 0.7.0
+
+discourse_as_sso_erlang:
+    Versions: 0.6.0, 0.7.0
+
+dogstatsde:
+    Versions: 0.0.7, 0.5.0, 0.6.0, 0.8.0
+
+doppler:
+    Versions: 0.1.0
+
+doteki:
+    Versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5
+
+dovetail:
+    Versions: 0.0.2, 0.0.3
+
+dp_decoder:
+    Versions: 0.1.1, 0.1.2, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.9, 0.2.10, 0.2.11, 0.2.12, 0.2.13, 0.2.14, 0.2.15, 0.2.16
+
+dproto:
+    Versions: 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.20, 0.1.21, 0.1.22, 0.1.23, 0.1.24, 0.1.25, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.3.0, 0.3.1
+
+dqe:
+    Versions: 0.1.9, 0.1.10, 0.1.20, 0.1.21, 0.1.22, 0.1.33, 0.1.34, 0.1.35, 0.1.36, 0.2.0, 0.2.1, 0.2.2, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.10, 0.3.11, 0.3.12, 0.3.13, 0.3.14, 0.3.15, 0.3.16, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.22, 0.3.23, 0.3.24, 0.3.25, 0.4.0, 0.4.1, 0.4.2, 0.4.3, 0.4.4, 0.4.5, 0.4.6, 0.4.7, 0.4.8, 0.4.9, 0.4.10, 0.4.11, 0.4.12, 0.4.13, 0.4.14, 0.4.15
+
+dqe_fun:
+    Versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11
+
+dqe_idx:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.20, 0.1.21, 0.2.0, 0.2.1
+
+dqe_idx_ddb:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4
+
+dqe_idx_pg:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.20, 0.1.21, 0.1.22, 0.1.23, 0.1.24, 0.1.25, 0.1.26, 0.1.27, 0.1.28, 0.1.29, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.9, 0.2.10, 0.2.11, 0.2.12, 0.2.13, 0.2.14, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6
+
+dynamic_compile:
+    Versions: 1.0.0
+
+e2qc:
+    Versions: 0.1.0
+
+ebitmap:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4
+
+ec2:
+    Versions: 0.9.0, 0.9.1
+
+econfig:
+    Versions: 0.5.0, 0.6.0, 0.6.1, 0.6.2, 0.6.3, 0.7.0, 0.7.1, 0.7.2, 0.7.3
+
+ecrontab:
+    Versions: 0.2.0, 0.3.0
+
+edown:
+    Versions: 0.7.0, 0.8.1
+
+efene:
+    Versions: 0.1.0, 0.9.9, 0.9.10, 0.9.11, 0.9.12, 0.9.13
+
+efirebirdsql:
+    Versions: 0.1.1, 0.1.2, 0.1.3
+
+efrisby:
+    Versions: 0.1.0, 0.2.0
+
+egcache:
+    Versions: 0.1.0
+
+egetopt:
+    Versions: 1.0.0
+
+egithub:
+    Versions: 0.1.17, 0.1.18, 0.1.19, 0.2.0, 0.2.1, 0.2.2, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.9, 0.3.0, 0.3.1, 0.3.2
+
+eini:
+    Versions: 1.2.1, 1.2.2, 1.2.3, 1.2.4
+
+eipmi:
+    Versions: 2.0.0
+
+ejwt:
+    Versions: 0.1.0
+
+ekstat:
+    Versions: 0.2.2
+
+eleveldb:
+    Versions: 2.1.3, 2.2.19, 2.2.20
+
+elibphonenumber:
+    Versions: 0.1.0, 0.1.1
+
+elixir_ale:
+    Versions: 0.2.0, 0.3.0, 0.4.0, 0.4.1, 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.5.6, 0.5.7
+
+elli:
+    Versions: 1.0.3, 1.0.4, 1.0.5, 2.0.0, 2.0.1
+
+elli_cache:
+    Versions: 0.1.0, 0.1.1
+
+elli_cloudfront:
+    Versions: 0.1.2, 0.3.2, 0.3.3
+
+elli_cookie:
+    Versions: 0.1.7, 0.2.8, 0.2.9
+
+elli_date:
+    Versions: 1.1.0, 1.1.1
+
+elli_prometheus:
+    Versions: 0.1.0, 0.1.1
+
+elli_xpblfe:
+    Versions: 0.1.0, 0.1.1, 0.2.2, 0.2.3
+
+elmdb:
+    Versions: 0.2.0, 0.3.0, 0.3.1, 0.3.2, 0.3.4, 0.3.5, 0.3.6, 0.4.0, 0.4.1
+
+elvis:
+    Versions: 0.2.6-alpha3, 0.3.0, 0.3.2
+
+elvis_core:
+    Versions: 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5
+
+eministat:
+    Versions: 0.10.1
+
+emodel:
+    Versions: 1.3.0, 1.3.1, 1.4.0, 1.5.0, 1.5.1, 1.6.0
+
+enotify:
+    Versions: 0.1.0
+
+ensq:
+    Versions: 0.1.5, 0.1.6, 0.1.7
+
+epam:
+    Versions: 1.0.1, 1.0.2
+
+eper:
+    Versions: 0.85.0, 0.90.0, 0.93.0, 0.94.0
+
+epgpool:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.1.0
+
+epgsql:
+    Versions: 3.1.0, 3.1.1, 3.2.0, 3.3.0
+
+ephemeral:
+    Versions: 2.0.0, 2.0.1, 2.0.2, 2.0.3
+
+episcina:
+    Versions: 1.1.0
+
+eplugin:
+    Versions: 0.1.4
+
+epocxy:
+    Versions: 1.1.0
+
+epubnub:
+    Versions: 0.1.0
+
+eql:
+    Versions: 0.1.2
+
+equery:
+    Versions: 0.2.0, 0.6.1, 0.6.2, 0.8.0, 0.8.1, 0.8.2, 0.8.3, 0.8.4, 0.9.0, 0.9.1
+
+eredis:
+    Versions: 1.0.7, 1.0.8
+
+eredis_cluster:
+    Versions: 0.4.0, 0.4.1, 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.5.6, 0.5.7, 0.5.8
+
+erlando:
+    Versions: 3.1.1
+
+erlang_color:
+    Versions: 0.2.0, 1.0.0
+
+erlang_dbus:
+    Versions: 0.2.0
+
+erlang_localtime:
+    Versions: 1.0.0
+
+erlang_lua:
+    Versions: 0.0.1, 0.1.0
+
+erlang_osc:
+    Versions: 1.0.0, 1.0.1
+
+erlang_term:
+    Versions: 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+erlang_tls:
+    Versions: 1.0.3
+
+erlang_version:
+    Versions: 0.1.0, 0.2.0
+
+erlangzmq:
+    Versions: 1.0.0, 1.1.0, 1.1.2
+
+erlastic_search:
+    Versions: 1.0.0, 1.1.0, 1.1.1, 1.2.0, 1.3.0
+
+erlaudio:
+    Versions: 0.2.3
+
+erlbus:
+    Versions: 0.2.1
+
+erlcloud:
+    Versions: 0.9.0, 0.9.1, 0.9.2-rc.1, 0.9.2, 0.11.0, 0.12.0, 0.13.0, 0.13.2, 0.13.3, 0.13.4, 0.13.5, 0.13.6, 0.13.8, 0.13.9, 0.13.10, 2.0.0, 2.0.3, 2.0.4, 2.0.5, 2.1.0, 2.2.0, 2.2.1, 2.2.2, 2.2.4
+
+erldn:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5
+
+erldocs:
+    Versions: 0.9.6
+
+erldocs_other:
+    Versions: 0.9.6
+
+erldyn:
+    Versions: 0.5.0, 0.5.1, 0.5.2, 0.6.0, 0.7.0, 0.7.1, 0.7.2
+
+erlexec:
+    Versions: 1.0.1, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.2.1, 1.2.2, 1.3.0, 1.4.0, 1.6.0, 1.6.1, 1.6.2, 1.6.3, 1.6.4, 1.7.0
+
+erljson:
+    Versions: 0.1.0, 0.1.1
+
+erljwt:
+    Versions: 0.1.0, 0.2.0, 0.2.1, 0.3.1, 0.3.2
+
+erlogger:
+    Versions: 0.1.0
+
+erlpocket:
+    Versions: 1.2.1, 2.0.0
+
+erlport:
+    Versions: 0.9.8
+
+erlsci_getopt:
+    Versions: 0.8.4
+
+erlsh:
+    Versions: 0.1.0
+
+erlsom:
+    Versions: 1.2.1, 1.4.1
+
+erltrace:
+    Versions: 0.1.3, 0.1.4
+
+erlup:
+    Versions: 0.0.1, 0.1.0, 0.2.0, 0.3.0
+
+erlware_commons:
+    Versions: 0.12.0, 0.13.0, 0.14.0, 0.15.0, 0.16.0, 0.17.0, 0.18.0, 0.19.0, 0.20.0, 0.21.0, 0.22.0, 1.0.0
+
+erlydtl:
+    Versions: 0.11.1, 0.12.0, 0.12.1
+
+erlydtl2:
+    Versions: 0.11.1
+
+erlz:
+    Versions: 0.1.0
+
+erlzk:
+    Versions: 0.6.0, 0.6.1, 0.6.2, 0.6.3
+
+erocksdb:
+    Versions: 0.4.0, 0.4.1
+
+erwatch:
+    Versions: 0.2.0, 0.2.2, 0.3.0
+
+escalus:
+    Versions: 2.6.4
+
+esel:
+    Versions: 0.1.0, 0.1.1, 0.1.2
+
+esip:
+    Versions: 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.0.10
+
+esmpp:
+    Versions: 0.0.1, 0.0.2
+
+esockd:
+    Versions: 4.1.1
+
+esqlcipher:
+    Versions: 1.0.0
+
+esqlite:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.1.0, 0.2.0, 0.2.1, 0.2.2
+
+estore:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9
+
+etls:
+    Versions: 1.1.0, 1.1.1, 1.1.2, 1.2.0
+
+etoml:
+    Versions: 0.1.0
+
+eunit_addons:
+    Versions: 0.3.0
+
+eunit_formatters:
+    Versions: 0.2.0, 0.3.0, 0.3.1
+
+eunit_sugar:
+    Versions: 0.1.0
+
+evel:
+    Versions: 0.1.0, 0.1.1
+
+ex_bitcask:
+    Versions: 0.0.1, 0.0.2, 0.1.0
+
+ex_farmhash:
+    Versions: 0.1.0, 0.1.1, 0.1.2
+
+exec:
+    Versions: 1.0.1
+
+exemplar:
+    Versions: 0.5.0-rc1
+
+exmagick:
+    Versions: 0.0.3, 0.0.4
+
+exmerl:
+    Versions: 0.1.0, 0.1.1
+
+exometer_core:
+    Versions: 1.0.0, 1.4.0
+
+ezlib:
+    Versions: 1.0.1, 1.0.2
+
+ezmq:
+    Versions: 0.2.0
+
+fast_tls:
+    Versions: 1.0.0-beta1, 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.10
+
+fast_xml:
+    Versions: 1.1.2, 1.1.3, 1.1.4, 1.1.5, 1.1.6, 1.1.7, 1.1.8, 1.1.9, 1.1.10, 1.1.11, 1.1.12, 1.1.13, 1.1.14, 1.1.15, 1.1.18, 1.1.19, 1.1.20
+
+fast_yaml:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8
+
+fcm:
+    Versions: 0.1.0
+
+feeder:
+    Versions: 1.4.1, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.7, 2.0.0, 2.0.1, 2.0.2, 2.1.0
+
+fifo_db:
+    Versions: 0.1.8, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4
+
+fifo_dt:
+    Versions: 0.1.65, 0.1.66, 0.1.67, 0.1.68, 0.1.69, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8
+
+fifo_lager:
+    Versions: 0.1.2, 0.1.3, 0.1.4
+
+fifo_s3:
+    Versions: 0.1.15, 0.1.16, 0.1.17, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8
+
+fifo_spec:
+    Versions: 0.1.27, 0.1.28, 0.1.29, 0.1.30, 0.1.32
+
+fifo_utils:
+    Versions: 0.1.7, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.20, 0.1.21, 0.1.22, 0.1.23, 0.1.24, 0.1.25, 0.1.26, 0.1.27, 0.1.28, 0.1.29, 0.1.30, 0.1.31, 0.1.32, 0.1.33, 0.1.34
+
+fifocache:
+    Versions: 1.0.0, 1.0.1
+
+file_signatures:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6
+
+firebase_token:
+    Versions: 1.0.0, 1.1.0
+
+fixer:
+    Versions: 0.0.1, 0.1.0, 0.1.1, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4
+
+fling:
+    Versions: 1.0.0
+
+fn:
+    Versions: 1.0.0
+
+folsom:
+    Versions: 0.8.3
+
+folsom_ddb:
+    Versions: 0.1.12, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.20, 0.1.21, 0.1.22, 0.1.23, 0.1.24, 0.1.25, 0.1.26, 0.1.27, 0.1.28, 0.1.29, 0.1.30, 0.1.31, 0.1.32
+
+folsomite:
+    Versions: 1.2.7, 1.2.8
+
+forms:
+    Versions: 0.0.1
+
+fqc:
+    Versions: 0.1.5, 0.1.6, 0.1.7
+
+fs:
+    Versions: 0.9.0, 0.9.1, 0.9.2, 2.11.0, 2.12.0
+
+fs_event:
+    Versions: 1.0.0
+
+fs_sync:
+    Versions: 1.0.0
+
+fuse:
+    Versions: 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1, 2.4.0
+
+gen_cycle:
+    Versions: 0.0.3, 1.0.1
+
+gen_flow:
+    Versions: 0.0.3
+
+gen_leader:
+    Versions: 0.1.0
+
+gen_listener_tcp:
+    Versions: 0.3.2
+
+gen_logger:
+    Versions: 1.2.1
+
+gen_rpc:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 2.0.0, 2.0.1, 2.1.0
+
+gen_smtp:
+    Versions: 0.9.0, 0.10.0, 0.11.0
+
+geolite2data:
+    Versions: 0.0.1
+
+getopt:
+    Versions: 0.8.2
+
+gisla:
+    Versions: 1.0.0
+
+glob:
+    Versions: 0.0.9
+
+goldrush:
+    Versions: 0.1.6, 0.1.7, 0.1.8, 0.1.9
+
+google_token:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.3
+
+gpb:
+    Versions: 3.11.0, 3.12.0, 3.12.1, 3.12.2, 3.13.0, 3.14.0, 3.15.0, 3.16.0, 3.17.0, 3.17.1, 3.17.2, 3.17.3, 3.17.4, 3.17.5, 3.17.8, 3.17.9, 3.17.10, 3.17.11, 3.17.12, 3.17.13, 3.18.0, 3.18.1, 3.18.2, 3.18.3, 3.18.4, 3.18.5, 3.18.6, 3.18.7, 3.18.8, 3.18.9, 3.18.10, 3.19.0, 3.20.0, 3.20.2, 3.20.3, 3.21.0, 3.21.1, 3.21.2, 3.21.3, 3.22.0, 3.22.1, 3.22.2, 3.22.3, 3.22.4, 3.22.5, 3.23.0, 3.23.1, 3.23.2, 3.24.0, 3.24.1, 3.24.2, 3.24.3, 3.24.4, 3.25.0, 3.25.1, 3.25.2, 3.26.0, 3.26.1, 3.26.2, 3.26.3, 3.26.4, 3.26.5, 3.26.6
+
+gpio_rpi:
+    Versions: 0.1.0
+
+gproc:
+    Versions: 0.3.0, 0.3.1, 0.5.0, 0.6.1
+
+granderl:
+    Versions: 0.1.3, 0.1.5
+
+graphiter:
+    Versions: 1.0.3, 1.0.4
+
+graphql_parser:
+    Versions: 0.0.1, 0.0.2, 0.0.3
+
+gun:
+    Versions: 1.0.0-pre.1, 1.0.0-pre.2
+
+gurka:
+    Versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.7, 0.1.8
+
+hackney:
+    Versions: 0.13.1, 0.14.0, 0.14.1, 0.14.2, 0.14.3, 0.15.0, 0.15.2, 1.0.1, 1.0.2, 1.0.5, 1.0.6, 1.1.0, 1.2.0, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.4.6, 1.4.7, 1.4.8, 1.4.10, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.5.7, 1.6.0, 1.6.1, 1.6.2, 1.6.3, 1.6.4, 1.6.5, 1.6.6, 1.7.0, 1.7.1
+
+hairnet:
+    Versions: 1.0.0
+
+hamcrest:
+    Versions: 0.1.1, 0.1.2, 0.1.3
+
+hash_ring:
+    Versions: 0.4.0
+
+hash_ring_ex:
+    Versions: 1.0.1, 1.1.0, 1.1.1, 1.1.2
+
+hashids_erlang:
+    Versions: 1.0.3, 1.0.4, 1.0.5
+
+hdr_histogram:
+    Versions: 0.2.0
+
+heroku_crashdumps:
+    Versions: 0.1.0
+
+hex2bin:
+    Versions: 1.0.0
+
+hexer:
+    Versions: 0.0.1
+
+hid:
+    Versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4
+
+hlc:
+    Versions: 1.0.0, 2.0.0
+
+hoax:
+    Versions: 0.11.1, 0.11.2
+
+hooks:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.1.0, 1.1.1, 1.2.0, 2.0.0, 2.0.1
+
+horatio:
+    Versions: 0.2.0-rc1
+
+hpack_erl:
+    Versions: 0.2.3
+
+http_signature:
+    Versions: 1.1.0
+
+httpc_aws:
+    Versions: 0.1.0, 0.1.2, 0.1.3
+
+hut:
+    Versions: 1.2.0
+
+ibrowse:
+    Versions: 4.2.1, 4.2.2, 4.4.0
+
+iconv:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.3
+
+idl:
+    Versions: 1.0.0, 1.0.1
+
+idna:
+    Versions: 1.0.1, 1.0.2, 1.0.3, 1.1.0, 1.2.0, 2.0.0, 3.0.0, 4.0.0
+
+inaka_aleppo:
+    Versions: 0.9.4, 0.9.5, 0.9.6, 0.9.7, 0.9.8, 0.9.9, 1.0.0
+
+inaka_emysql:
+    Versions: 0.4.2, 0.4.4
+
+inaka_iso8601:
+    Versions: 1.1.2
+
+inaka_mixer:
+    Versions: 0.1.5
+
+irc_parser:
+    Versions: 0.1.0
+
+ishikawa:
+    Versions: 0.0.1
+
+iso8601:
+    Versions: 1.2.2, 1.2.3
+
+iso_erlang:
+    Versions: 0.6.0, 0.7.0, 0.8.0, 0.8.1, 0.9.0, 0.9.1, 0.10.0
+
+jam:
+    Versions: 1.0.0
+
+jamdb_oracle:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4
+
+jc:
+    Versions: 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.2.0, 1.2.1
+
+jchash:
+    Versions: 0.1.0
+
+jesse:
+    Versions: 0.1.3, 1.4.0
+
+jiffy:
+    Versions: 0.14.7, 0.14.10, 0.14.11
+
+jose:
+    Versions: 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.1.2, 1.1.3, 1.2.0, 1.3.0, 1.4.0, 1.4.1, 1.4.2, 1.5.0, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.4, 1.7.5, 1.7.6, 1.7.7, 1.7.8, 1.7.9, 1.8.0, 1.8.1
+
+jsone:
+    Versions: 1.0.0, 1.1.0, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4, 1.2.5, 1.2.6, 1.3.0, 1.3.1, 1.3.2, 1.4.0, 1.4.1, 1.4.2, 1.4.3
+
+jsx:
+    Versions: 1.4.5, 2.0.2, 2.0.3, 2.0.4, 2.1.1, 2.2.0, 2.3.0, 2.5.3, 2.6.0, 2.6.1, 2.6.2, 2.7.0, 2.7.1, 2.7.2, 2.8.0, 2.8.1, 2.8.2
+
+jsxd:
+    Versions: 0.1.9, 0.1.10, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4
+
+jsxn:
+    Versions: 0.1.0, 0.2.0, 0.2.1
+
+jwalk:
+    Versions: 0.6.0, 0.6.1, 0.6.2, 0.7.0, 0.9.0, 0.9.5, 0.9.6, 1.0.0, 1.0.1, 1.0.2, 1.1.0, 1.1.2, 1.1.3
+
+jwerl:
+    Versions: 0.1.0
+
+jwt:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3
+
+k6_bytea:
+    Versions: 1.1.4, 1.1.5
+
+kafe:
+    Versions: 1.5.0, 1.5.1, 1.6.0, 1.6.1, 1.6.2, 2.0.0, 2.1.0, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 2.1.5, 2.1.6, 2.1.7, 2.2.0, 2.2.1
+
+kafka_protocol:
+    Versions: 0.2.3, 0.3.1, 0.3.2, 0.4.0, 0.6.0, 0.7.0, 0.7.1, 0.7.2, 0.7.3, 0.7.4, 0.7.5, 0.7.6, 0.7.7, 0.7.8, 0.8.0
+
+kafkerl:
+    Versions: 2.0.0, 2.1.0
+
+kanin:
+    Versions: 0.5.0, 0.5.1, 0.6.0
+
+katana:
+    Versions: 0.2.17, 0.2.18, 0.3.0, 0.3.1
+
+katana_code:
+    Versions: 0.1.0
+
+katana_test:
+    Versions: 0.1.1
+
+katipo:
+    Versions: 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.4.0
+
+keccak:
+    Versions: 2.0.0
+
+keccakf1600:
+    Versions: 0.0.1, 1.0.1, 1.0.2, 2.0.0
+
+key2value:
+    Versions: 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+keys1value:
+    Versions: 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+kla:
+    Versions: 0.8.0-rc1, 0.8.0-rc2, 0.8.0-rc3, 0.8.0-rc4
+
+kvs:
+    Versions: 2.1.0
+
+kylie:
+    Versions: 0.0.1, 0.1.0, 1.0.0
+
+lager:
+    Versions: 2.1.1, 3.0.1, 3.0.2, 3.2.0, 3.2.1, 3.2.4
+
+lager2json:
+    Versions: 1.0.0, 1.0.1, 1.0.2
+
+lager_graylog:
+    Versions: 0.1.0, 0.1.1
+
+lager_hipchat:
+    Versions: 0.2.0, 0.2.1
+
+lager_json_formatter:
+    Versions: 0.0.2, 0.0.3, 0.0.4, 0.1.0, 0.1.1, 0.2.0, 0.2.1, 0.2.2
+
+lager_logstash_backend:
+    Versions: 0.1.0, 0.1.1
+
+lager_watchdog:
+    Versions: 0.1.9, 0.1.10
+
+lasp:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.0.5
+
+lasp_support:
+    Versions: 0.0.1
+
+lasse:
+    Versions: 1.1.0
+
+lazy_lists:
+    Versions: 0.1.0
+
+lbm_kv:
+    Versions: 0.0.2
+
+lcfg:
+    Versions: 0.5.0-rc1, 0.5.0-rc2, 0.5.0-rc3
+
+ldb:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.0.5
+
+letsencrypt:
+    Versions: 0.5.0, 0.7.0, 0.8.1
+
+levaindoc:
+    Versions: 0.7.0
+
+lfe:
+    Versions: 1.0.2, 1.1.1, 1.2.0
+
+lhttpc:
+    Versions: 1.3.0, 1.4.0, 1.4.1, 1.5.0, 1.5.1
+
+libchunter:
+    Versions: 0.1.45, 0.1.46, 0.1.47, 0.1.48
+
+libdecaf:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4
+
+libhowl:
+    Versions: 0.1.31, 0.1.34, 0.1.35, 0.1.36, 0.1.37, 0.1.38, 0.1.39
+
+libleofs:
+    Versions: 0.1.2
+
+libsnarl:
+    Versions: 0.3.40, 0.3.41, 0.3.42, 0.3.43, 0.3.44, 0.3.45, 0.3.46, 0.3.47, 0.3.48, 0.3.49, 0.3.50, 0.3.51, 0.3.52
+
+libsnarlmatch:
+    Versions: 0.1.5, 0.1.6, 0.1.7, 0.1.8
+
+libsniffle:
+    Versions: 0.3.37, 0.3.38, 0.3.40, 0.3.41, 0.3.42, 0.3.43, 0.3.44, 0.3.45, 0.3.46, 0.3.47, 0.3.48, 0.3.49, 0.3.50, 0.3.51, 0.3.52
+
+libsodium:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.8, 0.0.9, 0.0.10
+
+ljson:
+    Versions: 0.6.0-rc1
+
+locker:
+    Versions: 1.0.6, 1.0.8
+
+logi:
+    Versions: 0.5.0
+
+logi_stdlib:
+    Versions: 0.1.0
+
+logjam:
+    Versions: 0.5.0-rc1, 0.5.0-rc2
+
+loise:
+    Versions: 1.1.0-rc1, 1.1.0-rc2
+
+lric:
+    Versions: 0.3.0
+
+lru:
+    Versions: 1.0.0, 1.1.0, 1.1.1, 1.2.0, 1.3.0, 1.3.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.3.1
+
+ltest:
+    Versions: 0.10.0-rc1, 0.10.0-rc2, 0.10.0-rc4, 0.10.0-rc5, 0.10.0-rc6
+
+lutil:
+    Versions: 0.10.0-rc1, 0.10.0-rc2, 0.10.0-rc3, 0.10.0-rc4, 0.10.0-rc5, 0.10.0-rc6
+
+lz4:
+    Versions: 0.2.2
+
+mad:
+    Versions: 0.9.0
+
+mapsd:
+    Versions: 0.1.0
+
+match_trie:
+    Versions: 0.1.0
+
+mcrypt:
+    Versions: 0.1.0, 0.1.1
+
+md2:
+    Versions: 1.1.1
+
+mdns_client:
+    Versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.7, 0.1.8
+
+mdns_client_lib:
+    Versions: 0.1.22, 0.1.23, 0.1.24, 0.1.25, 0.1.26, 0.1.27, 0.1.28, 0.1.29, 0.1.30, 0.1.31, 0.1.32, 0.1.33, 0.1.34, 0.1.35, 0.1.37, 0.1.38, 0.1.39, 0.1.41, 0.1.42, 0.1.43
+
+mdns_server:
+    Versions: 0.1.1, 0.2.0
+
+mdns_server_lib:
+    Versions: 0.1.19, 0.2.0, 0.2.1, 0.2.2, 0.2.3
+
+meck:
+    Versions: 0.8.2, 0.8.3, 0.8.4
+
+medoc:
+    Versions: 1.0.0
+
+mekao:
+    Versions: 0.4.3
+
+merklet:
+    Versions: 1.0.1
+
+merkletree:
+    Versions: 0.1.0
+
+messagepack:
+    Versions: 0.2.0, 0.2.2, 0.2.3, 0.3.0, 0.4.0, 0.4.1
+
+meta:
+    Versions: 0.0.1
+
+metal:
+    Versions: 0.1.0
+
+metrics:
+    Versions: 0.1.0, 0.2.0, 0.2.1, 1.0.0, 1.0.1, 1.1.0, 1.2.0, 2.0.0, 2.0.1, 2.1.0, 2.2.0
+
+metrics_reader:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11
+
+mimerl:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.1.0
+
+minmay:
+    Versions: 1.0.1, 1.0.2, 1.0.3, 1.1.0, 1.2.0
+
+mmath:
+    Versions: 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17-alpha, 0.2.0-alpha, 0.2.0-alpha1, 0.2.0-alpha10, 0.2.0-alpha2, 0.2.0-alpha3, 0.2.0-alpha4, 0.2.0-alpha5, 0.2.0-alpha6, 0.2.0-alpha7, 0.2.0-alpha8, 0.2.0-alpha9, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.9, 0.2.10, 0.2.11, 0.2.12, 0.2.13, 0.2.14, 0.2.15
+
+mochicow:
+    Versions: 0.6.1, 0.6.2, 0.6.3, 0.6.4
+
+mochiweb:
+    Versions: 2.12.2, 2.15.0
+
+mochiweb_html:
+    Versions: 2.13.0, 2.15.0
+
+mochiweb_util:
+    Versions: 0.1.0
+
+mockgyver:
+    Versions: 0.12.0
+
+msgpack:
+    Versions: 0.3.5, 0.4.0, 0.5.0, 0.6.0, 0.7.0
+
+msgpack_rpc_erlang:
+    Versions: 0.6.4
+
+mstore:
+    Versions: 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.20, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.9, 0.2.10, 0.3.0, 0.3.1, 0.3.2
+
+mtx:
+    Versions: 1.0.0
+
+n2o:
+    Versions: 2.3.0
+
+nacl:
+    Versions: 0.3.0
+
+nats_msg:
+    Versions: 0.3.1, 0.3.3, 0.4.1
+
+nconf:
+    Versions: 0.0.1
+
+neo4j:
+    Versions: 0.2.1, 0.3.0
+
+neotoma:
+    Versions: 1.7.3
+
+nerves_interim_wifi:
+    Versions: 0.0.1, 0.0.2, 0.1.0, 0.1.1, 0.2.0
+
+nerves_io_neopixel:
+    Versions: 0.1.0, 0.2.0
+
+nerves_io_nfc:
+    Versions: 0.1.0
+
+nerves_io_rc522:
+    Versions: 0.1.0
+
+nerves_neopixel:
+    Versions: 0.3.0
+
+nerves_network_interface:
+    Versions: 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.4.0
+
+nerves_runtime:
+    Versions: 0.1.0, 0.1.1
+
+nerves_uart:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.1.0, 0.1.1
+
+nerves_wpa_supplicant:
+    Versions: 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.3.0
+
+newrelic:
+    Versions: 0.1.0
+
+nifsy:
+    Versions: 0.1.0
+
+nodefinder:
+    Versions: 1.3.3-alpha.1, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+noise:
+    Versions: 0.0.3, 0.0.4, 0.0.5
+
+oauth2_erlang:
+    Versions: 0.6.1
+
+observer_cli:
+    Versions: 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.7, 1.0.8, 1.0.9, 1.1.0
+
+oidcc:
+    Versions: 1.0.0, 1.0.1
+
+oidcc_cowboy:
+    Versions: 1.0.0, 1.0.1
+
+p1_mysql:
+    Versions: 1.0.1, 1.0.2
+
+p1_oauth2:
+    Versions: 0.6.1
+
+p1_pgsql:
+    Versions: 1.0.1, 1.1.0, 1.1.1, 1.1.2
+
+p1_stringprep:
+    Versions: 1.0.0, 1.0.1
+
+p1_utils:
+    Versions: 1.0.0-beta1, 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6
+
+p1_xml:
+    Versions: 1.0.0, 1.1.0-beta1, 1.1.0, 1.1.1-beta1, 1.1.1-deprecated, 1.1.1
+
+p1_xmlrpc:
+    Versions: 1.15.1
+
+parse_trans:
+    Versions: 2.9.0, 3.0.0
+
+partisan:
+    Versions: 0.0.1, 0.1.0, 0.1.1, 0.2.0
+
+pbkdf2:
+    Versions: 2.0.0
+
+pbkdf2_nif:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.4.0
+
+pc:
+    Versions: 0.2.0, 0.3.0, 1.0.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0
+
+pe4kin:
+    Versions: 0.1.0, 0.1.1
+
+pest:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.5.0
+
+pgapp:
+    Versions: 0.0.1, 0.0.2
+
+pgpool:
+    Versions: 1.0.0, 1.1.0
+
+pgsql:
+    Versions: 26.0.0, 26.0.1
+
+picosat:
+    Versions: 0.1.0
+
+plain_fsm:
+    Versions: 1.4.0
+
+plumtree:
+    Versions: 0.1.0
+
+pmbag:
+    Versions: 0.1.0, 1.0.0
+
+png:
+    Versions: 0.1.1
+
+pobox:
+    Versions: 1.0.2
+
+poolboy:
+    Versions: 1.2.0, 1.2.1, 1.3.0, 1.4.0, 1.4.1, 1.4.2, 1.5.0, 1.5.1
+
+pooler:
+    Versions: 1.4.0, 1.5.0
+
+poolgirl:
+    Versions: 0.0.2, 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.1.0, 1.1.1, 1.1.2
+
+portmidi:
+    Versions: 3.1.0, 3.1.1, 3.1.2, 3.2.0, 4.0.0, 4.1.0, 4.2.0, 5.0.0, 5.0.1, 5.1.0, 5.1.1
+
+positive:
+    Versions: 13.3.7
+
+pot:
+    Versions: 0.9.2, 0.9.3, 0.9.4, 0.9.5
+
+ppg:
+    Versions: 0.1.3
+
+pqueue:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+privilegex:
+    Versions: 0.1.2
+
+procket:
+    Versions: 0.7.0
+
+proj:
+    Versions: 0.1.1, 0.2.0, 0.2.2
+
+prometheus:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.2.0, 1.0.0, 1.0.1, 1.0.2, 1.5.0, 1.6.0, 1.7.0, 2.0.0, 2.1.0, 2.2.0, 3.0.0-alpha1, 3.0.0-alpha10, 3.0.0-alpha2, 3.0.0-alpha3, 3.0.0-alpha4, 3.0.0-alpha5, 3.0.0-alpha6, 3.0.0-alpha7, 3.0.0-alpha8, 3.0.0-alpha9, 3.0.0-rc1, 3.0.0, 3.0.1, 3.1.0, 3.1.1
+
+prometheus_httpd:
+    Versions: 1.0.0
+
+prometheus_process_collector:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.2.0, 1.0.0-alpha1, 1.0.0-alpha10, 1.0.0-alpha2, 1.0.0-alpha6, 1.0.0-alpha8, 1.0.0-alpha9, 1.0.0-rc1, 1.0.0, 1.0.1, 1.0.2
+
+promexp:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3
+
+proper:
+    Versions: 1.1.0, 1.1.1-beta
+
+protobuffs:
+    Versions: 0.8.2, 0.8.4
+
+protofy_test:
+    Versions: 1.0.0
+
+provider_asn1:
+    Versions: 0.1.2, 0.2.0, 0.2.1
+
+providers:
+    Versions: 1.3.1, 1.4.1, 1.5.0, 1.6.0
+
+pynchon:
+    Versions: 0.1.1, 0.5.0
+
+qdate:
+    Versions: 0.4.2, 0.4.3
+
+qdate_localtime:
+    Versions: 1.1.0
+
+qsp:
+    Versions: 0.1.0
+
+quickrand:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1-rc1, 1.5.1, 1.5.2-rc1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+quintana:
+    Versions: 0.2.0, 0.2.1
+
+rabbit_common:
+    Versions: 3.0.2, 3.3.5, 3.4.0, 3.5.0, 3.5.6, 3.6.7-pre.1
+
+radius:
+    Versions: 0.0.13
+
+ranch:
+    Versions: 1.0.0, 1.1.0, 1.2.0, 1.2.1, 1.3.0, 1.3.1, 1.3.2
+
+rand_compat:
+    Versions: 0.0.1
+
+rankmatcher:
+    Versions: 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6
+
+ratx:
+    Versions: 0.1.0
+
+raven_erlang:
+    Versions: 0.2.0, 0.3.0, 0.3.1, 0.3.2
+
+rebar3_abnfc_plugin:
+    Versions: 0.1.0
+
+rebar3_appup_plugin:
+    Versions: 1.0.0, 1.1.1, 1.2.0, 1.2.1, 2.0.1, 2.0.2, 2.1.0, 2.2.0
+
+rebar3_asn1_compiler:
+    Versions: 1.0.0
+
+rebar3_auto:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.3.1
+
+rebar3_auto_applications:
+    Versions: 1.0.0
+
+rebar3_autotest:
+    Versions: 0.1.0, 0.1.1
+
+rebar3_cuttlefish:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.6.0, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.10.0, 0.11.0, 0.12.0, 0.13.0, 0.13.2, 0.14.0
+
+rebar3_diameter_compiler:
+    Versions: 0.1.0, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.3.0, 0.3.1, 0.4.0
+
+rebar3_edata_plugin:
+    Versions: 0.1.10, 0.1.11
+
+rebar3_efene:
+    Versions: 0.1.0
+
+rebar3_efene_compile:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.5, 0.1.6
+
+rebar3_efene_ct:
+    Versions: 0.1.0
+
+rebar3_efene_shell:
+    Versions: 0.1.0, 0.1.1
+
+rebar3_elixir:
+    Versions: 0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.8, 0.0.9, 0.1.0, 0.1.1, 0.1.2
+
+rebar3_elixir_compile:
+    Versions: 1.0.0
+
+rebar3_elixirc:
+    Versions: 0.1.0
+
+rebar3_elvis_plugin:
+    Versions: 0.0.2, 0.0.3, 0.0.4
+
+rebar3_eqc:
+    Versions: 0.0.5, 0.0.6, 0.0.7, 0.0.8, 0.0.10
+
+rebar3_exunit:
+    Versions: 0.1.0-beta, 0.1.0, 0.1.1
+
+rebar3_git_vsn:
+    Versions: 1.0.0, 1.1.0
+
+rebar3_gpb_plugin:
+    Versions: 1.0.1, 1.2.0, 1.2.1, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.4.0, 1.5.1, 1.5.2, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.8.0, 1.8.1, 1.8.2, 1.9.0, 1.9.1, 1.9.2, 1.10.0, 1.10.1, 1.10.2
+
+rebar3_gpb_rpc_plugin:
+    Versions: 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14
+
+rebar3_hex:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.4.0, 0.5.0, 0.5.1, 0.6.0, 0.7.0, 0.8.0, 0.9.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.6.1, 1.6.3, 1.7.0, 1.7.1, 1.7.2, 1.8.0, 1.8.1, 1.9.0, 1.9.1, 1.10.0, 1.11.0, 1.12.0, 1.13.0, 1.14.0, 1.15.0, 1.16.0, 1.17.0, 1.18.0, 1.19.0, 1.20.0, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.4.0, 2.5.0, 2.5.1, 3.0.0, 3.1.0, 4.0.0
+
+rebar3_idl_compiler:
+    Versions: 0.3.0, 0.4.0, 0.5.0
+
+rebar3_jorel:
+    Versions: 0.0.1
+
+rebar3_lfe_clean:
+    Versions: 0.4.0-rc1, 0.4.0-rc2
+
+rebar3_lfe_compile:
+    Versions: 0.4.0, 0.4.1, 0.6.0, 0.7.0, 0.8.0-rc1, 0.8.0-rc2, 0.8.0-rc3
+
+rebar3_lfe_test:
+    Versions: 0.4.0-rc1, 0.4.0-rc2, 0.4.0-rc3, 0.4.0-rc4
+
+rebar3_lfe_version:
+    Versions: 0.5.0-rc, 0.5.0-rc1, 0.5.0-rc2
+
+rebar3_lint:
+    Versions: 0.1.7
+
+rebar3_live:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3
+
+rebar3_neotoma_plugin:
+    Versions: 0.2.0
+
+rebar3_proper:
+    Versions: 0.5.0, 0.6.0, 0.6.1, 0.6.2, 0.6.3, 0.7.0, 0.7.1
+
+rebar3_proper_plugin:
+    Versions: 0.1.0
+
+rebar3_protobuffs:
+    Versions: 0.1.0, 0.2.0
+
+rebar3_raw_deps:
+    Versions: 1.0.0, 2.0.0
+
+rebar3_run:
+    Versions: 0.1.0, 0.2.0
+
+rebar3_shellrpc:
+    Versions: 0.1.0
+
+rebar3_tsung:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4
+
+rebar3_vendor:
+    Versions: 0.1.0, 0.2.0, 0.3.0, 0.3.1
+
+rebar3_yang_plugin:
+    Versions: 0.1.0, 0.2.0, 0.2.1
+
+rebar_alias:
+    Versions: 0.1.0, 0.2.0
+
+rebar_cmd:
+    Versions: 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.5
+
+rebar_covertool:
+    Versions: 1.0.0
+
+rebar_eqc:
+    Versions: 0.0.11, 0.0.12
+
+rebar_erl_vsn:
+    Versions: 0.1.0
+
+rebar_protobuffs:
+    Versions: 0.1.0
+
+rebar_prv_mlfe:
+    Versions: 0.2.0, 0.3.0
+
+recon:
+    Versions: 2.2.0, 2.2.1, 2.3.0, 2.3.1, 2.3.2
+
+recordset:
+    Versions: 0.1.0
+
+redo:
+    Versions: 2.0.0, 2.0.1
+
+relflow:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5
+
+reltool_util:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+relx:
+    Versions: 2.1.0, 2.1.1, 3.0.0, 3.1.0, 3.2.0, 3.3.0, 3.3.1, 3.3.2, 3.4.0, 3.5.0, 3.6.0, 3.7.0, 3.7.1, 3.8.0, 3.9.0, 3.10.0, 3.11.0, 3.12.0, 3.13.0, 3.14.0, 3.15.0, 3.16.0, 3.17.0, 3.18.0, 3.19.0, 3.20.0, 3.21.0, 3.21.1, 3.22.0, 3.22.1, 3.22.2
+
+repo:
+    Versions: 0.4.1, 0.4.2, 0.4.3, 0.5.0, 0.5.1, 0.6.0, 0.6.1, 0.6.2
+
+restc:
+    Versions: 0.3.4, 0.3.6, 0.3.7, 0.3.8
+
+reup:
+    Versions: 0.1.0
+
+rfc3339:
+    Versions: 0.0.1, 0.2.0, 0.2.1, 0.9.0
+
+riak_core_ng:
+    Versions: 2.1.5-rocks, 2.1.5, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.8, 3.0.0, 3.0.1, 3.0.2
+
+riak_core_ng_up:
+    Versions: 2.2.8, 2.2.9
+
+riak_dt:
+    Versions: 2.1.1
+
+riak_ensemble:
+    Versions: 2.1.3
+
+riak_ensemble_ng:
+    Versions: 2.2.0, 2.3.0, 2.4.0
+
+riak_pb:
+    Versions: 2.1.0, 2.1.4, 2.3.0, 2.3.1, 2.3.2, 2.3.0-1-beta1
+
+riak_sysmon:
+    Versions: 2.1.2, 2.1.3
+
+riakc:
+    Versions: 2.1.1, 2.4.1, 2.5.2, 2.5.3-beta1, 2.5.3
+
+rocksdb:
+    Versions: 0.6.0, 0.6.1, 0.6.2
+
+rs_compile:
+    Versions: 0.1.0
+
+rstats:
+    Versions: 1.0.0, 1.0.1, 1.0.2
+
+salt:
+    Versions: 0.1.0, 0.1.1, 0.1.2
+
+sanitizer:
+    Versions: 0.0.1, 0.0.2
+
+sass:
+    Versions: 1.0.0, 1.0.1, 1.0.2, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.0.10, 1.0.11, 1.0.12, 1.0.13, 1.0.14, 1.0.15, 1.0.16, 1.0.17
+
+savory:
+    Versions: 0.0.1, 0.0.2
+
+sbroker:
+    Versions: 0.7.0, 1.0.0-beta.2, 1.0.0-beta.3, 1.0.0-beta.4, 1.0.0-beta.5, 1.0.0
+
+serial:
+    Versions: 0.1.2
+
+service:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.5.0, 1.5.1
+
+setup:
+    Versions: 1.7.0, 1.8.0, 1.8.1
+
+sext:
+    Versions: 1.4.0
+
+sfmt:
+    Versions: 0.10.1, 0.12.2, 0.12.7, 0.13.0
+
+sgi:
+    Versions: 0.6.0
+
+sha3:
+    Versions: 1.0.0, 2.0.0
+
+shackle:
+    Versions: 0.3.1, 0.3.2, 0.4.2, 0.4.3
+
+shards:
+    Versions: 0.2.0, 0.3.0, 0.3.1, 0.4.0, 0.4.1, 0.4.2
+
+sheldon:
+    Versions: 0.1.0, 0.1.1
+
+shotgun:
+    Versions: 0.1.15, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.3.0
+
+sidejob:
+    Versions: 2.0.0
+
+simpre:
+    Versions: 0.1.0
+
+siphash:
+    Versions: 2.0.1, 2.1.0, 2.1.1, 3.0.0, 3.0.1, 3.1.0, 3.1.1, 3.1.2
+
+slp:
+    Versions: 0.0.2
+
+slugerl:
+    Versions: 1.0.0
+
+smerl:
+    Versions: 0.0.1
+
+smokkfiskur:
+    Versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4
+
+smurf:
+    Versions: 0.1.2, 0.1.3
+
+snappy:
+    Versions: 1.1.1
+
+snappyer:
+    Versions: 1.1.3-1.0.0, 1.1.3-1.0.1, 1.1.3-1.0.2, 1.1.3-1.0.3, 1.1.3-1.0.4, 1.1.3-1.0.5, 1.2.0
+
+spartan:
+    Versions: 0.0.1
+
+sphinxsearch_giza:
+    Versions: 0.0.1
+
+sqlite3:
+    Versions: 1.1.5
+
+ssl_verify_fun:
+    Versions: 1.0.8, 1.1.0, 1.1.1
+
+ssl_verify_hostname:
+    Versions: 1.0.0, 1.0.1, 1.0.3, 1.0.4, 1.0.5, 1.0.6
+
+st_commons:
+    Versions: 1.2.1
+
+statman:
+    Versions: 0.5.0
+
+statsderl:
+    Versions: 0.5.2
+
+stillir:
+    Versions: 1.0.0
+
+stmd:
+    Versions: 0.0.1, 0.0.2
+
+stout:
+    Versions: 1.0.0
+
+strftimerl:
+    Versions: 0.1.0, 0.1.1, 0.1.2
+
+stringprep:
+    Versions: 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7
+
+stun:
+    Versions: 1.0.0-beta1, 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9
+
+sumo_db:
+    Versions: 0.6.0, 0.6.1, 0.6.2, 0.6.3, 0.6.4, 0.7.0, 0.7.1
+
+sumo_db_mysql:
+    Versions: 0.0.1
+
+sumo_db_pgsql:
+    Versions: 0.1.0, 0.1.1
+
+sumo_rest:
+    Versions: 0.2.0, 0.2.1, 0.3.0, 0.3.1, 0.3.2, 0.3.3
+
+supervisor3:
+    Versions: 1.0.0, 1.0.1, 1.1.1, 1.1.2, 1.1.3, 1.1.4, 1.1.5
+
+supool:
+    Versions: 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+switchboard:
+    Versions: 0.3.2
+
+syn:
+    Versions: 1.2.0, 1.2.1, 1.3.0, 1.3.1, 1.4.0, 1.5.0, 1.6.0
+
+sync:
+    Versions: 0.1.3
+
+syslog:
+    Versions: 1.0.2
+
+syslog_app:
+    Versions: 3.0.0, 3.1.0
+
+syslog_socket:
+    Versions: 0.1.0, 0.2.0, 1.6.0
+
+tdata:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5
+
+tea_crypto:
+    Versions: 0.0.1, 0.0.2, 1.0.0
+
+teacup:
+    Versions: 0.2.1, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4
+
+teacup_nats:
+    Versions: 0.2.2, 0.2.3, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.7, 0.4.0
+
+templaterl:
+    Versions: 0.1.0, 0.1.1, 0.2.0, 0.2.1, 0.2.2, 0.2.3
+
+termcap:
+    Versions: 0.1.0
+
+time_compat:
+    Versions: 0.0.1
+
+tinymt:
+    Versions: 0.2.0, 0.3.0, 0.3.1
+
+tirerl:
+    Versions: 0.1.7, 0.1.8, 0.1.9, 1.0.0, 1.0.1
+
+trails:
+    Versions: 0.1.1, 0.2.0, 0.2.1
+
+trie:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+tsuru:
+    Versions: 0.0.1, 0.0.4, 0.1.0, 1.0.1, 1.0.2, 1.1.0, 1.2.1, 1.3.0, 1.4.0, 1.4.1
+
+tunnerl:
+    Versions: 0.1.0, 0.2.0, 0.2.1, 0.2.2
+
+types:
+    Versions: 0.0.1, 0.0.4, 0.0.5
+
+u2f:
+    Versions: 0.1.2, 0.1.3, 0.1.4, 0.1.5
+
+ua_classifier:
+    Versions: 1.0.0
+
+ucol:
+    Versions: 2.0.0
+
+ucol_nif:
+    Versions: 1.1.2, 1.1.3, 1.1.4, 1.1.5
+
+ui:
+    Versions: 0.1.0, 0.1.1
+
+ulitos:
+    Versions: 0.3.0
+
+uri:
+    Versions: 0.1.0
+
+urilib:
+    Versions: 0.1.0, 0.1.1, 0.2.0, 0.3.0
+
+uuid_erl:
+    Versions: 1.3.3, 1.4.0-rc.4, 1.4.0, 1.5.0, 1.5.1, 1.5.2-rc1, 1.5.2, 1.5.3, 1.5.4, 1.6.0
+
+validerl:
+    Versions: 2.0.1
+
+varpool:
+    Versions: 1.5.1, 1.5.2, 1.5.3, 1.5.4-rc1, 1.5.4, 1.6.0
+
+velixir:
+    Versions: 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7
+
+vent:
+    Versions: 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.2.0, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6
+
+verhoeff:
+    Versions: 0.1.2
+
+vmq_commons:
+    Versions: 1.0.0
+
+vmstats:
+    Versions: 2.0.0
+
+vsn:
+    Versions: 1.0.0, 1.1.0
+
+watch:
+    Versions: 0.1.0, 0.1.1, 0.2.0, 0.2.1, 0.2.2
+
+weber:
+    Versions: 0.1.0
+
+webpage:
+    Versions: 1.0.0
+
+websocket_client:
+    Versions: 1.1.0, 1.2.1
+
+worker_pool:
+    Versions: 1.0.3, 1.0.4, 1.1.0, 2.0.0, 2.0.1, 2.1.0, 2.2.0, 2.2.1, 2.2.2
+
+wpa_supplicant:
+    Versions: 0.1.0, 0.2.0
+
+xmpp:
+    Versions: 1.1.3, 1.1.4, 1.1.6
+
+xprof:
+    Versions: 1.1.0
+
+xref_runner:
+    Versions: 0.2.4, 0.2.5, 1.0.0
+
+xtea:
+    Versions: 0.1.0, 0.1.1
+
+yamerl:
+    Versions: 0.3.2, 0.3.3, 0.4.0
+
+yamerl_the_fork:
+    Versions: 0.3.2-1, 0.3.2, 0.3.3
+
+yes_msg:
+    Versions: 0.1.0
+
+yomel:
+    Versions: 0.3.0, 0.4.0, 0.5.0
+
+yubico:
+    Versions: 0.1.4, 0.1.5
+
+zipper:
+    Versions: 0.1.1, 0.1.4, 0.1.5, 0.2.0, 1.0.0, 1.0.1
+
+zlist:
+    Versions: 0.1.0, 1.0.0, 1.0.1, 1.0.3, 1.0.4, 1.1.0, 1.1.1
+
+zstd:
+    Versions: 0.1.0
+

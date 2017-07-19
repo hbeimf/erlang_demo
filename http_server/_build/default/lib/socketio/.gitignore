@@ -1,0 +1,8 @@
+ebin
+stress/ebin
+.eunit
+deps
+*.o
+*.beam
+*.plt
+*.dump

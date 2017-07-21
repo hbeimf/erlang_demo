@@ -51,6 +51,12 @@ func init() {
 // 我想把 这个集群改造成全双工的集群，所以我开始写详细的注释
 // 方便自己分析
 func main() {
+    // Parse CLI flags
+    flag.Parse()
+
+    setup_logging()
+    write_pid()
+
     // 主要是学习大牛写的，阅读入口就是这里的两个函数
     // 启动节点
     startNode()
@@ -61,12 +67,6 @@ func main() {
 }
 
 func startNode() {
-    // Parse CLI flags
-    flag.Parse()
-
-    setup_logging()
-    write_pid()
-
     log.Println("node started")
 
     // 这里是启动node的入口 =============================

@@ -9,7 +9,7 @@
     cowboy,
     mysql,
     socketio,
-    %%redis,
+    redis,
     request_parser,
     workboy,
     %%python,

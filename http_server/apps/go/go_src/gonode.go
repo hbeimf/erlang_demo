@@ -51,7 +51,7 @@ func init() {
 // 我想把 这个集群改造成全双工的集群，所以我开始写详细的注释
 // 方便自己分析
 func main() {
-    // Parse CLI flags
+    // 解析命令行参数
     flag.Parse()
 
     setup_logging()

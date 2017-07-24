@@ -54,7 +54,7 @@ action(20001, _BinString, Status) ->
     % Work = {show_result, self()},
     % workboy:start(Work),
 
-    doit_server_parse_data:doit(),
+    doit_server_parse_data:doit(self()),
 
     {reply_binary, Status, ReplyBin};
 

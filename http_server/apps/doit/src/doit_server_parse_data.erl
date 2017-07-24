@@ -21,10 +21,10 @@
 % --------------------------------------------------------------------
 % External API
 % --------------------------------------------------------------------
--export([doit/0]).
+-export([doit/1]).
 
-doit() ->
-    gen_server:cast(?MODULE, doit).
+doit(FromPid) ->
+    gen_server:cast(?MODULE, {doit, FromPid}).
 
 
 
@@ -101,7 +101,7 @@ handle_call(_Request, _From, State) ->
 %     {noreply, State};
 % doit_server_parse_data:doit().
 % sh600011
-handle_cast(doit, State) ->
+handle_cast({doit, FromPid}, State) ->
     io:format("doit  !! ============== ~n~n"),
 
     %% 此处将结果json缓存到数据库中，
@@ -119,6 +119,7 @@ handle_cast(doit, State) ->
                 % Reply = [],
                 ok;
             _ ->
+                FromPid ! {from_doit, Code},
                 % Reply = jsx:encode([go:parse_list(List)])
                 to_json(go:parse_list(List), Code)
 

@@ -172,7 +172,7 @@ handle_cast({doit, FromPid}, State) ->
     end, Rows),
 
     % 开始分析
-    doit_server_parse_data:doit(),
+    doit_server_parse_data:doit(FromPid),
 
     {noreply, State};
 handle_cast(_Msg, State) ->

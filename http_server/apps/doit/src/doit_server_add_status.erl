@@ -21,10 +21,10 @@
 % --------------------------------------------------------------------
 % External API
 % --------------------------------------------------------------------
--export([doit/2]).
+-export([doit/3]).
 
-doit(Code, Data) ->
-    gen_server:cast(?MODULE, {doit, Code, Data}).
+doit(Code, Data, FromPid) ->
+    gen_server:cast(?MODULE, {doit, Code, Data, FromPid}).
 
 
 
@@ -100,7 +100,7 @@ handle_call(_Request, _From, State) ->
 %     % io:format("message ~p!! ============== ~n~n", [GoMBox]),
 %     gen_server:cast(GoMBox, {Msg, self()}),
 %     {noreply, State};
-handle_cast({doit, Code, Data}, _State) ->
+handle_cast({doit, Code, Data, FromPid}, _State) ->
     % io:format("doit  !! ============== ~n~p~n~n", [{Code, DataTuple}]),
     % Status = #{
     %     code => Code,
@@ -121,7 +121,7 @@ handle_cast({doit, Code, Data}, _State) ->
 
 
     % Sql2 = go:rtrim(Sql1, ","),
-
+    FromPid ! {from_doit, go_lib:to_str(Code)++" status"},
     io:format("~n=======================~n ~p~n~n", [{LastPrice, Sql}]),
     mysql:query_sql(Sql),
 

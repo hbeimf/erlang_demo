@@ -121,7 +121,7 @@ handle_cast({doit, FromPid}, State) ->
             _ ->
                 FromPid ! {from_doit, Code},
                 % Reply = jsx:encode([go:parse_list(List)])
-                to_json(go:parse_list(List), Code)
+                to_json(go:parse_list(List), Code, FromPid)
 
         end
 
@@ -178,7 +178,7 @@ code_change(_OldVsn, State, _Extra) ->
 %     list_to_float(hd(io_lib:format("~.3f",[Num]))).
 
 % doit_server_parse_data:doit().
-to_json(Tuple, Code) ->
+to_json(Tuple, Code, FromPid) ->
     {{Time, Price, Yid},
         L1, L2} = Tuple,
 
@@ -205,7 +205,7 @@ to_json(Tuple, Code) ->
     Json = jsx:encode(L),
     % io:format("list==================~n~p~n", [{Code, Json}]),
 
-    doit_server_add_json:doit(Code, Json),
+    doit_server_add_json:doit(Code, Json, FromPid),
 
     % 整理状态并添加入数据库
     Status = #{
@@ -216,7 +216,7 @@ to_json(Tuple, Code) ->
         all_years => length(L2)
     },
 
-    doit_server_add_status:doit(Code, Status),
+    doit_server_add_status:doit(Code, Status, FromPid),
     ok.
 
 to_kv_list(List) ->

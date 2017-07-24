@@ -21,10 +21,10 @@
 % --------------------------------------------------------------------
 % External API
 % --------------------------------------------------------------------
--export([doit/2]).
+-export([doit/3]).
 
-doit(Code, DataTuple) ->
-    gen_server:cast(?MODULE, {doit, Code, DataTuple}).
+doit(Code, DataTuple, FromPid) ->
+    gen_server:cast(?MODULE, {doit, Code, DataTuple, FromPid}).
 
 
 
@@ -100,11 +100,12 @@ handle_call(_Request, _From, State) ->
 %     % io:format("message ~p!! ============== ~n~n", [GoMBox]),
 %     gen_server:cast(GoMBox, {Msg, self()}),
 %     {noreply, State};
-handle_cast({doit, Code, Data}, _State) ->
+handle_cast({doit, Code, Data, FromPid}, _State) ->
     % io:format("doit  !! ============== ~n~p~n~n", [{Code, DataTuple}]),
 
     Sql = "REPLACE INTO parse_json(code, data) VALUES " ++  "('"++go_lib:to_str(Code)++"', '"++go_lib:to_str(Data)++"')",
 
+    FromPid ! {from_doit, go_lib:to_str(Code)++" json"},
 
     % Sql2 = go:rtrim(Sql1, ","),
 

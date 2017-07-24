@@ -11,6 +11,7 @@ import (
     "strconv"
     "runtime"
     "strings"
+    "./controller"
 )
 
 type srv struct {
@@ -160,7 +161,7 @@ func (gs *srv) HandleCast(message *etf.Term) {
                     }
                 case etf.Tuple:
                     // 调用 Cast 控制器逻辑　
-                    cast := getCast(string(act[0].(etf.Atom)))
+                    cast := controller.GetCast(string(act[0].(etf.Atom)))
                     cast.Excute(from, gs.Node, act)
             }
         }
@@ -193,8 +194,8 @@ func (gs *srv) HandleCall(message *etf.Term, from *etf.Tuple) (reply *etf.Term) 
             // 调用 Call 控制器逻辑
             // 根据注册的key/value控制器选出回调，调用并回复 erlang 端
             key := string(req[0].(etf.Atom))
-            if hasCallController(key) {
-                call := getCall(key)
+            if controller.HasCallController(key) {
+                call := controller.GetCall(key)
                 reply = call.Excute(req)
             } else {
                 replyTerm := etf.Term(etf.Atom("call_controller_not_define"))

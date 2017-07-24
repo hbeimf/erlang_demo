@@ -1,4 +1,4 @@
-package main
+package controller
 
 import (
     "github.com/goerlang/etf"
@@ -39,14 +39,14 @@ func addRouterCall(key string, controller ControllerCall) {
     callRouters[key] = controller
 }
 
-func getCall(key string) (ctrl ControllerCall) {
+func GetCall(key string) (ctrl ControllerCall) {
     if _, ok := callRouters[key]; ok {
         return callRouters[key].(ControllerCall)
     }
     return callRouters["default"].(ControllerCall)
 }
 
-func hasCallController(key string) bool {
+func HasCallController(key string) bool {
     if _, ok := callRouters[key]; ok {
         return true
     }

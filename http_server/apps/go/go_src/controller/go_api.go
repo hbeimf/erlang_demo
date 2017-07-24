@@ -1,4 +1,4 @@
-package main
+package controller
 
 import (
     iconv "github.com/djimenez/iconv-go"

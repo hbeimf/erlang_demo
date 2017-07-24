@@ -1,4 +1,4 @@
-package main
+package controller
 
 import (
     "github.com/goerlang/etf"
@@ -31,7 +31,7 @@ func addCast(key string, controller ControllerCast) {
     castRouters[key] = controller
 }
 
-func getCast(key string) (ctrl ControllerCast) {
+func GetCast(key string) (ctrl ControllerCast) {
     if _, ok := castRouters[key]; ok {
         return castRouters[key].(ControllerCast)
     }

@@ -2,13 +2,17 @@
 -compile(export_all).
 
 get() ->
-    redis_call:q(pool1, ["GET", "foo"]).
+    redis_get("foo").
+redis_get(Key) ->
+    redis_call:q(pool1, ["GET", Key]).
 
 set() ->
-    redis_call:q(pool1, ["SET", "foo", "bar"]).
+    set("foo", "bar").
+set(Key, Val) ->
+    redis_call:q(pool1, ["SET", Key, Val]).
 
 
-
+% 列表相关操作
 lpush() ->
     lpush("list100", "val100").
 lpush(ListName, Val) ->
@@ -18,6 +22,18 @@ rpop() ->
     rpop("list100").
 rpop(ListName) ->
     redis_call:q(pool1, ["RPOP", ListName]).
+
+% 阻塞弹出
+brpop() ->
+    brpop("list100").
+% 第三个参数num是为了指定列表为空时等待的时间, 如果超时会返回 {ok,undefined}
+brpop(ListName) ->
+    redis_call:q(pool1, ["BRPOP", ListName, 1]).
+
+
+
+
+
 
 % (http_server@127.0.0.1)1> redis:lpush().
 % {ok,<<"2">>}

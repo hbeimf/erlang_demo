@@ -37,7 +37,7 @@ func NewRedisPool(server string, num int) *Redis {
 
 
 // 字符串api start  ==================================================
-func (this *Redis) Get(key string) (string, error) {
+func (this *Redis) RedisGet(key string) (string, error) {
     if len(key) == 0 {
         return "", nil
     }
@@ -58,7 +58,7 @@ func (this *Redis) Get(key string) (string, error) {
 }
 
 
-func (this *Redis) Set(key string, val string) {
+func (this *Redis) RedisSet(key string, val string) {
     conn := this.pool.Get()
     defer conn.Close()
 
@@ -68,7 +68,7 @@ func (this *Redis) Set(key string, val string) {
 
 // 如果返回1设置成功
 // 返回0设置失败
-func (this *Redis) SetNX(key string, val string) int {
+func (this *Redis) RedisSetNX(key string, val string) int {
     conn := this.pool.Get()
     defer conn.Close()
 
@@ -82,7 +82,7 @@ func (this *Redis) SetNX(key string, val string) int {
 }
 
 // 设置秒级过期时间
-func (this *Redis) EXPIRE(key string, timeout int) {
+func (this *Redis) RedisEXPIRE(key string, timeout int) {
     conn := this.pool.Get()
     defer conn.Close()
 
@@ -93,7 +93,7 @@ func (this *Redis) EXPIRE(key string, timeout int) {
 }
 
 // 设置毫秒级过期时间
-func (this *Redis) PEXPIRE(key string, timeout int) {
+func (this *Redis) RedisPEXPIRE(key string, timeout int) {
     conn := this.pool.Get()
     defer conn.Close()
 
@@ -105,7 +105,7 @@ func (this *Redis) PEXPIRE(key string, timeout int) {
 
 // 字符串api end ==================================================
 
-func (this *Redis) LPush(listName string, val string) {
+func (this *Redis) RedisLPush(listName string, val string) {
     conn := this.pool.Get()
     defer conn.Close()
 
@@ -113,7 +113,7 @@ func (this *Redis) LPush(listName string, val string) {
 }
 
 
-func (this *Redis) RPop(listName string) (string, error) {
+func (this *Redis) RedisRPop(listName string) (string, error) {
     conn := this.pool.Get()
     defer conn.Close()
     res, err := conn.Do("RPOP", listName)

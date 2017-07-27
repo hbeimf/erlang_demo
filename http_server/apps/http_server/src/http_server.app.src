@@ -17,6 +17,7 @@
     %java,
     table,
     lager,
+    rabbit,
     doit
     %%erlydtl
    ]},

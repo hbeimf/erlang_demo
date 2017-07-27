@@ -1,5 +1,6 @@
 {"1.1.0",
-[{<<"cowboy">>,
+[{<<"amqp_client">>,{pkg,<<"amqp_client">>,<<"3.5.6">>},0},
+ {<<"cowboy">>,
   {git,"https://github.com/ninenines/cowboy.git",
        {ref,"d08c2ab39d38c181abda279d5c2cadfac33a50c1"}},
   0},
@@ -19,6 +20,7 @@
        {ref,"9e7001e23b2a816702f32b1763698ffef0f8858b"}},
   0},
  {<<"poolboy">>,{pkg,<<"poolboy">>,<<"1.5.1">>},0},
+ {<<"rabbit_common">>,{pkg,<<"rabbit_common">>,<<"3.5.6">>},1},
  {<<"ranch">>,
   {git,"https://github.com/ninenines/ranch.git",
        {ref,"adf1822defc2b7cfdc7aca112adabfa1d614043c"}},
@@ -30,9 +32,11 @@
  {<<"sync">>,{pkg,<<"sync">>,<<"0.1.3">>},0}]}.
 [
 {pkg_hash,[
+ {<<"amqp_client">>, <<"ED7E63122F32AF1D503D134E6C1B088A0627E89C6B5C77B92984C841CB0939BE">>},
  {<<"eredis">>, <<"AB4FDA1C4BA7FBE6C19C26C249DC13DA916D762502C4B4FA2DF401A8D51C5364">>},
  {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
  {<<"jsx">>, <<"7ACC7D785B5ABE8A6E9ADBDE926A24E481F29956DD8B4DF49E3E4E7BCC92A018">>},
  {<<"poolboy">>, <<"6B46163901CFD0A1B43D692657ED9D7E599853B3B21B95AE5AE0A777CF9B6CA8">>},
+ {<<"rabbit_common">>, <<"AD541BE86F08CDB1C04320EB4353AD30F25555569C95CC062AF28CF79B74D085">>},
  {<<"sync">>, <<"C5785FE1311542B76355F403B8E0B35E30DBBEE1F5E89968748CEA4D0A20D289">>}]}
 ].

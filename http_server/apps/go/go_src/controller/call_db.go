@@ -22,8 +22,8 @@ func (this *DbController) Excute(message etf.Tuple) (*etf.Term) {
     // 仅作测试用，如果上线， 要初始化成全局变量，
     redis := model.NewRedisPool("127.0.0.1:6379", 0)
 
-    redis.Set("key1122", "val1")
-    val, err := redis.Get("key1")
+    redis.RedisSet("key1122", "val1")
+    val, err := redis.RedisGet("key1")
 
 
     log.Printf("get: %#v %#v ", val, err)

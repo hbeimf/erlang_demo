@@ -4,6 +4,8 @@
 -include_lib("amqp_client/include/amqp_client.hrl").
 % -include_lib("amqp_client/include/amqp_client.hrl").
 
+
+% 启动pub/sub 生产者
 emit_log() ->
     {ok, Connection} =
         amqp_connection:start(#amqp_params_network{host = "localhost"}),
@@ -22,13 +24,13 @@ emit_log() ->
     ok = amqp_connection:close(Connection),
     ok.
 
-
+% 启动pub/sub消费者
 receive_demo() ->
     spawn(fun() ->
         receive_logs()
     end).
 
-
+% 启动pub/sub消费者
 receive_logs() ->
     {ok, Connection} =
         amqp_connection:start(#amqp_params_network{host = "localhost"}),

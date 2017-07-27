@@ -23,6 +23,10 @@ emit_log() ->
     ok.
 
 
+receive_demo() ->
+    spawn(fun() ->
+        receive_logs()
+    end).
 
 
 receive_logs() ->
@@ -51,7 +55,7 @@ receive_logs() ->
 loop(Channel) ->
     receive
         {#'basic.deliver'{}, #amqp_msg{payload = Body}} ->
-            io:format(" [x] ~p~n", [Body]),
+            io:format(" [xxx] ~p~n", [Body]),
             loop(Channel)
     end.
 

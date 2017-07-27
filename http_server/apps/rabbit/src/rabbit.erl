@@ -2,13 +2,14 @@
 -compile(export_all).
 
 -include_lib("amqp_client/include/amqp_client.hrl").
+% -include_lib("amqp_client/include/amqp_client.hrl").
 
 emit_log() ->
     {ok, Connection} =
         amqp_connection:start(#amqp_params_network{host = "localhost"}),
     {ok, Channel} = amqp_connection:open_channel(Connection),
 
-    amqp_channel:call(Channel, #'exchange.declare'{exchange = <<"logs">>,
+    amqp_channel:call(Channel, #'exchange.declare'{exchange = <<"logsXX">>,
                                                    type = <<"fanout">>}),
 
     Message = <<"info: Hello World!">>,
@@ -29,7 +30,7 @@ receive_logs() ->
         amqp_connection:start(#amqp_params_network{host = "localhost"}),
     {ok, Channel} = amqp_connection:open_channel(Connection),
 
-    amqp_channel:call(Channel, #'exchange.declare'{exchange = <<"logs">>,
+    amqp_channel:call(Channel, #'exchange.declare'{exchange = <<"logsXX">>,
                                                    type = <<"fanout">>}),
 
     #'queue.declare_ok'{queue = Queue} =

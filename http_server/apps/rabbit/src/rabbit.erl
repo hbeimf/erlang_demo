@@ -11,13 +11,14 @@ emit_log() ->
         amqp_connection:start(#amqp_params_network{host = "localhost"}),
     {ok, Channel} = amqp_connection:open_channel(Connection),
 
-    amqp_channel:call(Channel, #'exchange.declare'{exchange = <<"logsXX">>,
-                                                   type = <<"fanout">>}),
+    amqp_channel:call(Channel, #'exchange.declare'{exchange = <<"theExchange1">>,
+                                                   type = <<"fanout">>,
+                                                   durable = true}),
 
     Message = <<"info: Hello World!">>,
 
     amqp_channel:cast(Channel,
-                      #'basic.publish'{exchange = <<"logs">>},
+                      #'basic.publish'{exchange = <<"theExchange1">>},
                       #amqp_msg{payload = Message}),
     io:format(" [x] Sent ~p~n", [Message]),
     ok = amqp_channel:close(Channel),
@@ -36,13 +37,17 @@ receive_logs() ->
         amqp_connection:start(#amqp_params_network{host = "localhost"}),
     {ok, Channel} = amqp_connection:open_channel(Connection),
 
-    amqp_channel:call(Channel, #'exchange.declare'{exchange = <<"logsXX">>,
-                                                   type = <<"fanout">>}),
+    % 一旦申明了一个交换机，就不能轻易改变交换机的属性重新申明，　如durable由true 改成false，　一旦改变就会报错
+    %　除非先删除旧的申明　，
+
+    amqp_channel:call(Channel, #'exchange.declare'{exchange = <<"theExchange1">>,
+                                                   type = <<"fanout">>,
+                                                   durable = true}),
 
     #'queue.declare_ok'{queue = Queue} =
         amqp_channel:call(Channel, #'queue.declare'{exclusive = true}),
 
-    amqp_channel:call(Channel, #'queue.bind'{exchange = <<"logs">>,
+    amqp_channel:call(Channel, #'queue.bind'{exchange = <<"theExchange1">>,
                                              queue = Queue}),
 
     io:format(" [*] Waiting for logs. To exit press CTRL+C~n"),

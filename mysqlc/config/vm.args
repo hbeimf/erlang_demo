@@ -1,0 +1,6 @@
+-sname mysqlc
+
+-setcookie mysqlc_cookie
+
++K true
++A30

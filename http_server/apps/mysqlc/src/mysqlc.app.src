@@ -1,0 +1,30 @@
+{application, mysqlc,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { mysqlc_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[
+    {pools, [
+      {pool1,
+        [{host, "127.0.0.1"}, 
+        {port,3500}, 
+        {user, "ms_db"}, 
+        {password, "f1WBGOpSP6123!@UkWYIE"}, 
+        {database, "ms_db_log"},
+        {prepare, [{system_account, "set names utf8"}]}]
+      }
+    ]}
+  ]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
+
+
+%% {mysqlconf,[{host, "127.0.0.1"},{port,3500}, {user, "ms_db"},{password, "f1WBGOpSP6123!@UkWYIE"}, {database, "ms_db_log"},{keep_alive, true}]}

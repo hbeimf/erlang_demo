@@ -1,0 +1,35 @@
+{application, redisc,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { redisc_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    poolboy,
+    eredis
+   ]},
+{env, [
+        {global_or_local, local},
+        {pools, [
+                   {pool_redis, [
+                              {size, 5},
+                              {max_overflow, 20}
+                           ],
+                           [
+                              {host, "127.0.0.1"},
+                              {port, 3600},
+                              {reconnect_sleep, 100}
+                            ]
+                    }
+                  ]}
+  ]},
+
+
+
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.

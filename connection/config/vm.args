@@ -1,0 +1,6 @@
+-sname connection
+
+-setcookie connection_cookie
+
++K true
++A30

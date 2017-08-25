@@ -15,7 +15,9 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    connection_sup:start_link().
+	{ok, _} = ranch:start_listener(connection, 5, 
+		ranch_tcp, [{port, 9999}], connection_protocol, []),
+    	connection_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

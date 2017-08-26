@@ -89,8 +89,8 @@ parse_package(PackageBin) when erlang:byte_size(PackageBin) >= 2 ->
 	case parse_head(PackageBin) of
 		{ok, PackageLen} ->	
 			parse_body(PackageLen, PackageBin);
-		_ ->	
-			{ok, waitmore}
+		Any -> 
+			Any
 	end.
 parse_package(_) ->
 	{ok, waitmore}. 
@@ -100,6 +100,8 @@ parse_head(<<PackageLen:16 ,_/binary>> )
 parse_head(_) ->
 	error.
 
+parse_body(PackageLen, _ ) when PackageLen > 9000 ->
+	error; 
 parse_body(PackageLen, PackageBin) ->
 	case PackageBin of 
 		<<Package:PackageLen/binary,LefBin/binary>> ->

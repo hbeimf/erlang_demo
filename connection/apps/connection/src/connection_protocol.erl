@@ -82,6 +82,7 @@ code_change(_OldVsn, State, _Extra) ->
 	{ok, State}.
 
 %% Internal.
+% http://blog.csdn.net/yuanfengyun/article/details/49329327
 
 parse_package(PackageBin) when erlang:byte_size(PackageBin) >= 2 ->
 	io:format("parse package =========~n~n"),

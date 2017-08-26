@@ -32,7 +32,7 @@ init({Ref, Socket, Transport, _Opts = []}) ->
 	ok = ranch:accept_ack(Ref),
 	ok = Transport:setopts(Socket, [{active, once}]),
 	gen_server:enter_loop(?MODULE, [],
-		#state{socket=Socket, transport=Transport, data= <<"">>},
+		#state{socket=Socket, transport=Transport, data= <<>>},
 		?TIMEOUT).
 
 handle_info({tcp, Socket, CurrentPackage}, State=#state{
@@ -41,8 +41,11 @@ handle_info({tcp, Socket, CurrentPackage}, State=#state{
 	Transport:setopts(Socket, [{active, once}]),
 	PackageBin = <<LastPackage/binary, CurrentPackage/binary>>,
 
+	io:format("package ========== ~p~n ", [PackageBin]),
+
 	case parse_package(PackageBin) of
 		{ok, waitmore} -> 
+			io:format("wait more ===========~n~n"),
 			{noreply, State#state{data = PackageBin}};
 		{ok, RightPackage, NextPageckage} -> 
 			% parse logic and reply here ========================
@@ -57,6 +60,7 @@ handle_info({tcp, Socket, CurrentPackage}, State=#state{
 	% Transport:send(Socket, reverse_binary(Data)),
 	% {noreply, State, ?TIMEOUT};
 handle_info({tcp_closed, _Socket}, State) ->
+	io:format("~p:~p  tcp closed  !!!!!! ~n~n", [?MODULE, ?LINE]),
 	{stop, normal, State};
 handle_info({tcp_error, _, Reason}, State) ->
 	{stop, Reason, State};
@@ -79,13 +83,8 @@ code_change(_OldVsn, State, _Extra) ->
 
 %% Internal.
 
-% reverse_binary(B) when is_binary(B) ->
-% 	[list_to_binary(lists:reverse(binary_to_list(
-% 		binary:part(B, {0, byte_size(B)-2})
-% 	))), "\r\n"].
-
-
 parse_package(PackageBin) when erlang:byte_size(PackageBin) >= 2 ->
+	io:format("parse package =========~n~n"),
 	case parse_head(PackageBin) of
 		{ok, PackageLen} ->	
 			parse_body(PackageLen, PackageBin);
@@ -95,7 +94,8 @@ parse_package(PackageBin) when erlang:byte_size(PackageBin) >= 2 ->
 parse_package(_) ->
 	{ok, waitmore}. 
 
-parse_head(<<PackageLen:16 ,_/binary>> ) -> 
+parse_head(<<PackageLen:2/big-unsigned-integer-unit:8 ,_/binary>> ) ->
+	io:format("parse head ======: ~p ~n~n", [PackageLen]), 
 	{ok, PackageLen};
 parse_head(_) ->
 	error.
@@ -103,6 +103,7 @@ parse_head(_) ->
 parse_body(PackageLen, _ ) when PackageLen > 9000 ->
 	error; 
 parse_body(PackageLen, PackageBin) ->
+	io:format("parse body -----------~n~n"),
 	case PackageBin of 
 		<<RightPackage:PackageLen/binary,NextPageckage/binary>> ->
 			{ok, RightPackage , NextPageckage};

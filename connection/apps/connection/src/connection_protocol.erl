@@ -17,6 +17,19 @@
 
 -record(state, {socket, transport, data}).
 
+% http://blog.csdn.net/yuanfengyun/article/details/49329327
+% http://www.cnblogs.com/bicowang/p/4263227.html
+%% 宏定义
+% -define( PORT, 2345 ).
+% -define( HEAD_SIZE, 4 ).
+% %% 解数字类型用到的宏
+% -define( UINT, 32/unsigned-little-integer).
+% -define( INT, 32/signed-little-integer).
+% -define( USHORT, 16/unsigned-little-integer).
+% -define( SHORT, 16/signed-little-integer).
+% -define( UBYTE, 8/unsigned-little-integer).
+% -define( BYTE, 8/signed-little-integer).
+
 %% API.
 
 start_link(Ref, Socket, Transport, Opts) ->
@@ -43,7 +56,7 @@ handle_info({tcp, Socket, CurrentPackage}, State=#state{
 
 	io:format("package ========== ~p~n ", [PackageBin]),
 
-	case parse_package(PackageBin) of
+	case unpackage(PackageBin) of
 		{ok, waitmore} -> 
 			io:format("wait more ===========~n~n"),
 			{noreply, State#state{data = PackageBin}};
@@ -84,7 +97,7 @@ code_change(_OldVsn, State, _Extra) ->
 %% Internal.
 % http://blog.csdn.net/yuanfengyun/article/details/49329327
 
-parse_package(PackageBin) when erlang:byte_size(PackageBin) >= 2 ->
+unpackage(PackageBin) when erlang:byte_size(PackageBin) >= 2 ->
 	io:format("parse package =========~n~n"),
 	case parse_head(PackageBin) of
 		{ok, PackageLen} ->	
@@ -92,10 +105,10 @@ parse_package(PackageBin) when erlang:byte_size(PackageBin) >= 2 ->
 		Any -> 
 			Any
 	end;
-parse_package(_) ->
+unpackage(_) ->
 	{ok, waitmore}. 
 
-parse_head(<<PackageLen:2/big-unsigned-integer-unit:8 ,_/binary>> ) ->
+parse_head(<<PackageLen:16 ,_/binary>> ) ->
 	io:format("parse head ======: ~p ~n~n", [PackageLen]), 
 	{ok, PackageLen};
 parse_head(_) ->
@@ -110,3 +123,8 @@ parse_body(PackageLen, PackageBin) ->
 			{ok, RightPackage , NextPageckage};
 		_ -> {ok, waitmore}
 	end.
+
+package(DataBin) ->
+	Len = (byte_size(DataBin)+2) * 16,
+	<<Len:16, DataBin/binary>>.
+	

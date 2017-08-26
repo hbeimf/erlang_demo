@@ -31,5 +31,5 @@ parse_body(PackageLen, PackageBin) ->
 	end.
 
 package(DataBin) ->
-	Len = (byte_size(DataBin)+2) * 16,
+	Len = byte_size(DataBin)+2,
 	<<Len:16, DataBin/binary>>.

@@ -32,11 +32,11 @@ init({Ref, Socket, Transport, _Opts = []}) ->
 	ok = ranch:accept_ack(Ref),
 	ok = Transport:setopts(Socket, [{active, once}]),
 	gen_server:enter_loop(?MODULE, [],
-		#state{socket=Socket, transport=Transport, data=<<>>},
+		#state{socket=Socket, transport=Transport, data= <<"">>},
 		?TIMEOUT).
 
 handle_info({tcp, Socket, CurrentPackage}, State=#state{
-		socket=Socket, transport=Transport, data=LastPackage})
+		socket=Socket, transport=Transport, data=LastPackage}) -> 
 		% when byte_size(Data) > 1 ->
 	Transport:setopts(Socket, [{active, once}]),
 	PackageBin = <<LastPackage/binary, CurrentPackage/binary>>,
@@ -91,11 +91,11 @@ parse_package(PackageBin) when erlang:byte_size(PackageBin) >= 2 ->
 			parse_body(PackageLen, PackageBin);
 		Any -> 
 			Any
-	end.
+	end;
 parse_package(_) ->
 	{ok, waitmore}. 
 
-parse_head(<<PackageLen:16 ,_/binary>> )
+parse_head(<<PackageLen:16 ,_/binary>> ) -> 
 	{ok, PackageLen};
 parse_head(_) ->
 	error.
@@ -104,7 +104,7 @@ parse_body(PackageLen, _ ) when PackageLen > 9000 ->
 	error; 
 parse_body(PackageLen, PackageBin) ->
 	case PackageBin of 
-		<<Package:PackageLen/binary,LefBin/binary>> ->
+		<<RightPackage:PackageLen/binary,NextPageckage/binary>> ->
 			{ok, RightPackage , NextPageckage};
 		_ -> {ok, waitmore}
 	end.

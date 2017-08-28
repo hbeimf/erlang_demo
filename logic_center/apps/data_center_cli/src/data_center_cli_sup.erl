@@ -28,7 +28,12 @@ start_link() ->
 
 %% Child :: {Id,StartFunc,Restart,Shutdown,Type,Modules}
 init([]) ->
-    {ok, { {one_for_all, 0, 1}, []} }.
+    % {ok, { {one_for_all, 0, 1}, []} }.
+    Server = {data_center_cli_server, {data_center_cli_server, start_link, []},
+               permanent, 5000, worker, [data_center_cli_server]},
+
+    Children = [Server],
+    {ok, { {one_for_all, 10, 10}, Children} }.
 
 %%====================================================================
 %% Internal functions

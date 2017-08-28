@@ -5,7 +5,8 @@
   {mod, { logic_center_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    data_center_cli
    ]},
   {env,[]},
   {modules, []},

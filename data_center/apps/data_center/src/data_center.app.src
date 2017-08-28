@@ -5,7 +5,8 @@
   {mod, { data_center_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    ranch
    ]},
   {env,[]},
   {modules, []},

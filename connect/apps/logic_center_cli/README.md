@@ -1,4 +1,4 @@
-logic_center
+logic_center_cli
 =====
 
 An OTP application

@@ -1,4 +1,4 @@
-data_center
+data_center_cli
 =====
 
 An OTP application

@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc data_center public API
+%% @doc data_center_cli public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(data_center_app).
+-module(data_center_cli_app).
 
 -behaviour(application).
 
@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    data_center_sup:start_link().
+    data_center_cli_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

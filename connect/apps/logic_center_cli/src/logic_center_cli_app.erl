@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc logic_center public API
+%% @doc logic_center_cli public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(logic_center_app).
+-module(logic_center_cli_app).
 
 -behaviour(application).
 
@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    logic_center_sup:start_link().
+    logic_center_cli_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

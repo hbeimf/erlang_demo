@@ -64,6 +64,9 @@ handle_info({tcp, Socket, CurrentPackage}, State=#state{
 			% parse logic and reply here ========================
 			% Transport:send(Socket, reverse_binary(RightPackage)),
 			io:format("package here ========== ~p~n ", [RightPackage]),
+			{ok, U1, _ } = connection_package:unpackage(RightPackage),
+			<<_Len:16, Body/binary>> = U1,
+			io:format("receive: ~p~n ", [Body]),
 
 			{noreply, State#state{data = NextPageckage}};			
 		_ -> 

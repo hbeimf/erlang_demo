@@ -15,6 +15,8 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
+	{ok, _} = ranch:start_listener(connection, 5, 
+		ranch_tcp, [{port, 9998}], data_center_protocol, []),
     logic_center_sup:start_link().
 
 %%--------------------------------------------------------------------

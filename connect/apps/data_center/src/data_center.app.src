@@ -1,8 +1,8 @@
-{application, frontend,
+{application, data_center,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, { frontend_app, []}},
+  {mod, { data_center_app, []}},
   {applications,
    [kernel,
     stdlib

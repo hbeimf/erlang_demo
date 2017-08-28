@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc frontend top level supervisor.
+%% @doc logic_center top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(frontend_sup).
+-module(logic_center_sup).
 
 -behaviour(supervisor).
 

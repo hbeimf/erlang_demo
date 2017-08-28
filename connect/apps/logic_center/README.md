@@ -1,4 +1,4 @@
-backend
+logic_center
 =====
 
 An OTP application

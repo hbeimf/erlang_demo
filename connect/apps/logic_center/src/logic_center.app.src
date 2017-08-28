@@ -1,8 +1,8 @@
-{application, backend,
+{application, logic_center,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, { backend_app, []}},
+  {mod, { logic_center_app, []}},
   {applications,
    [kernel,
     stdlib

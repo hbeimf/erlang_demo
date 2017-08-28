@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc backend public API
+%% @doc data_center public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(backend_app).
+-module(data_center_app).
 
 -behaviour(application).
 
@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    backend_sup:start_link().
+    data_center_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

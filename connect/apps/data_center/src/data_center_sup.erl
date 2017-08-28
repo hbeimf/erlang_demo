@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc backend top level supervisor.
+%% @doc data_center top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(backend_sup).
+-module(data_center_sup).
 
 -behaviour(supervisor).
 

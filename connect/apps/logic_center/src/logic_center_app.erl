@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc frontend public API
+%% @doc logic_center public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(frontend_app).
+-module(logic_center_app).
 
 -behaviour(application).
 
@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    frontend_sup:start_link().
+    logic_center_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

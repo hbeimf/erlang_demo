@@ -5,7 +5,7 @@
 %% 定义记录结构
 -include("table.hrl").
 
-
+% http://blog.csdn.net/mycwq/article/details/12158967
 
 -define(TABLE, work).
 % -define(RECORDNAME, work).

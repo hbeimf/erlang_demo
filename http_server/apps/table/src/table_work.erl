@@ -53,3 +53,15 @@ delete(Key) ->
             mnesia:delete(Oid)
     end,
     mnesia:transaction(F).
+
+
+count() -> 
+    F = fun() ->  
+        mnesia:table_info(?TABLE, size)  
+    end,  
+    case mnesia:transaction(F) of
+        {atomic,Size} ->
+            Size;
+        _ -> 
+            0
+    end. 

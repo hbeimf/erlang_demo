@@ -12,7 +12,8 @@
 	start/0,
          start/1,  % I use this to start the Thrift service
          stop/1,   % Should be obvious from above
-         handle_function/2  % Erlang Thrift will call this with new messages.
+         handle_function/2,  % Erlang Thrift will call this with new messages.
+         handle_error/2
         ]).
 
 start() -> 
@@ -26,10 +27,16 @@ start(Port) ->
 stop(Server) ->
     thrift_socket_server:stop(Server).
 
-handle_function(hello, {TheMessageRecord}) ->
+handle_error(P1, P2) -> 
+	io:format("====error: ~p~n ", [{P1, P2}]),
+	ok.
+
+handle_function(hello, TheMessageRecord) ->
     %% unpack these or not, whatever.  Point is it's a record:
-    _Id = TheMessageRecord#message.id,
-    _Msg = TheMessageRecord#message.text,
+    % _Id = TheMessageRecord#message.id,
+    % _Msg = TheMessageRecord#message.text,
+
+    io:format("answer: ~p ~n ", [TheMessageRecord]),
 
     %% at this point you probably want to talk to a pool of gen_servers
     %% or something like that.

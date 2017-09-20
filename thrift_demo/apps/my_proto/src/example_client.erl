@@ -7,7 +7,9 @@
 -export([request/4, request/0]).
 
 request() -> 
-	request("127.0.0.1", 9999, 123, "str msg!!").
+	request("localhost", 9999, 123, "str msg!!"),
+	% request("127.0.0.1", 9999, 456, "str msg!!"),
+	ok.
 
 request(Host, Port, Id, Msg) ->
     Req = #message{id = Id, text = Msg},
@@ -17,3 +19,4 @@ request(Host, Port, Id, Msg) ->
     {ClientAgain, {ok, Response}} = thrift_client:call(Client, hello, [Req]),
     thrift_client:close(ClientAgain),
     Response.
+    % ok.

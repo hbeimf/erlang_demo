@@ -17,7 +17,7 @@
         ]).
 
 start() -> 
-	start(9999).
+	start(9009).
 start(Port) ->
     thrift_socket_server:start([{handler, ?MODULE},  % this module
                                 {port, Port},
@@ -27,8 +27,8 @@ start(Port) ->
 stop(Server) ->
     thrift_socket_server:stop(Server).
 
-handle_error(P1, P2) -> 
-	io:format("====error: ~p~n ", [{P1, P2}]),
+handle_error(_P1, _P2) -> 
+	% io:format("====error: ~p~n ", [{P1, P2}]),
 	ok.
 
 handle_function(hello, TheMessageRecord) ->

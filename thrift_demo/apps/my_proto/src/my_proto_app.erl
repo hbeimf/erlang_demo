@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-	% hello_server2:start(),
+	hello_server2:start(),
 	example_service:start(),
     my_proto_sup:start_link().
 

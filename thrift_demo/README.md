@@ -31,4 +31,4 @@ openssl openssl-devel
 download
 
 http://archive.apache.org/dist/thrift/
-http://archive.apache.org/dist/thrift/0.9.0/
+http://archive.apache.org/dist/thrift/0.9.1/

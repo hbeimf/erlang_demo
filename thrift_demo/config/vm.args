@@ -1,0 +1,6 @@
+-sname thrift_demo
+
+-setcookie thrift_demo_cookie
+
++K true
++A30

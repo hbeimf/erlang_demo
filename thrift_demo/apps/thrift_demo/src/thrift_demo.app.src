@@ -1,0 +1,17 @@
+{application, thrift_demo,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { thrift_demo_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    my_proto
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.

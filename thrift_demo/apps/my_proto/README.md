@@ -25,3 +25,10 @@ https://github.com/j14159/erlang-and-thrift/blob/master/thrift/example.thrift
 
 
 
+
+
+thrift -gen php example.thrift
+
+
+
+

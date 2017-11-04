@@ -35,7 +35,7 @@ websocket_handle({binary, Bin}, _ConnState, State) ->
 	io:format("Client received binary here ~p~n", [Bin]),
 	{ok, State};
 websocket_handle(Msg, _ConnState, State) ->
-    io:format("Client received msg XX ~p~n", [Msg]),
+    io:format("Client received msg:~n~p~n", [Msg]),
     % timer:sleep(1000),
     % BinInt = list_to_binary(integer_to_list(State)),
     % {reply, {text, <<"hello, this is message #", BinInt/binary >>}, State + 1}.
